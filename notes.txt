@@ -215,12 +215,51 @@ the third party libraries from
 
 
 
+re library
+--------------
+- search for patterns
+- match for the patterns ( at the beginning )
+- replace the patterns 
+- split the string
 
 
+metacharacters or wildcard characters
+----------------------------------------
 
 
+^ :  at the beginning of the string
+     re.search('^python',line)
+
+$ : at the end of the string
+    re.search('python$',line)
 
 
++ :  one or more occurences of the preceding character
+     re.search('pyt+hon',line)
+
+
+* :  zero or more occurences of the preceding character
+     re.search('pyt*hon',line)
+
+. :  any single charcter or digit
+     re.search('.ython',line)
+
+?  : either zero or one occurence of the preceding character
+     re.search('py?hon',line)      #  python    # pyhon
+
+{} : min to max occurence of the preceding character
+     re.search('pyt{2,5}hon',line)
+
+
+[] : one single character in []
+     re.search('py[tqy]hon',line)     # python   # pyqhon  # pyyhon
+
+
+() : (word1|word2)
+     re.search('python|spark', line)  # display lines with either word1 or word2
+
+\s : whitespaces
+\w : word boundary
 
 
 
