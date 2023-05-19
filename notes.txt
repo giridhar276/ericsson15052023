@@ -164,6 +164,70 @@ object.close()
 
 
 
+exception handling
+-------------------
+
+There are 2 types of errors
+
+- syntax error
+-semantic error or logical error
+
+handling the errors that occurs during runtime is known as exception handling.
+
+
+try     -- mandate
+except  -- mandate
+else    -- optional
+finally -- optional
+
+
+user defined function | definition | subroutine | block
+-------------------------------------------------------
+
+- code reusability
+
+
+
+
+
+
+
+library | package 
+-------------------
+Every library contains set of methods of some particular task.
+
+
+bulitin libraries
+-------------------
+builtin libraries comes along with python which are generally used(datetime manipulations, OS level tasks, math operations,.....) by everyone.
+
+
+
+
+third party libraries
+------------------------
+Depending on the requirement( Database , cloud , analytics , ML , network autmations .... ) developer has to install
+the third party libraries from
+
+- downloading and installing it manually.
+- installing using pip tool.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
