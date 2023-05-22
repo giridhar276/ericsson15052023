@@ -217,10 +217,17 @@ the third party libraries from
 
 re library
 --------------
+- search for string
 - search for patterns
 - match for the patterns ( at the beginning )
 - replace the patterns 
 - split the string
+
+re.search()
+re.match()
+re.sub()
+re.split()
+
 
 
 metacharacters or wildcard characters
@@ -260,6 +267,74 @@ $ : at the end of the string
 
 \s : whitespaces
 \w : word boundary
+
+
+
+
+
+
+
+creating virutal environement
+---------------------------------
+
+create create  --name myenv1
+
+
+to activate your environment
+------------------------------
+conda activate myenv1
+
+
+deactivating environment
+---------------------------
+conda deactivate
+
+
+########################### creating virtual environment with python verson ##################
+
+creating virtual env
+----------------------
+conda create  --name myenv2 python=3.8
+
+
+activating virtual environment
+-------------------------------
+conda activate myenv1     ( base ---> myenv2 )
+
+
+display all existinb libraries
+-------------------------------
+conda list
+
+display all virtual environments
+-----------------------------------
+conda env list
+
+
+installing spyder for virtual environment
+----------------------------------------
+conda install spyder
+
+
+
+
+There are 2 ways of programming
+----------------------------------
+- procedural programming ( top-down programming  )
+- object oriented programming ( Everything within in the class )
+
+
+class :  class is like blueprint of the model
+         Every class contains data members( attributes) and member functions( blocks)
+
+
+object : object is the instance of the class.
+
+** all the methods within the class should start with self keyword
+
+
+
+
 
 
 
